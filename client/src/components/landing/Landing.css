@@ -1,0 +1,45 @@
+.divContainer-landing{
+    margin: 0;
+    /* padding: 0;
+    background-image: url("../../assets/img/food-background-on-black-table-2021-08-30-09-52-19-utc.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.letters{
+  align-items: center;
+  height: 100vh;
+  font-family: "Bad Script", cursive;
+  font-size: 25px;
+  color: #261f0f;
+  position: fixed;
+  top: 30%;
+  left: 15%;
+}
+
+#button button{
+    border: 5px solid;
+    background: #d9ad26;
+    border-color: #261f0f;
+    font-size: 25px;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 80px;
+    color: rgb(238, 174, 202);
+    position: fixed;
+    top: 55%;
+    left: 25%;
+  }
+
+  #button button:hover {
+    transform: scale(1.1);
+  }

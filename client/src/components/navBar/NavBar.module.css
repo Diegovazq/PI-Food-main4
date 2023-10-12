@@ -1,0 +1,50 @@
+
+.mainContainer{
+    background: rgba(66, 31, 130, 0.227);
+    box-shadow: 0 1px 10px 0 rgba(10, 20, 38, 0.523);
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    height: 40px;
+    
+    display: flex;
+    justify-content :space-between;
+    align-items: center;
+}
+
+.home {
+    width: 100px;
+    height: 40px;
+    background: none;
+    border: none;
+    color: rgb(9, 9, 9);
+    font-size: 20px;
+    
+    cursor: pointer;
+}
+
+.home:hover {
+    background: black;
+    transition: 1s;
+    color: black;
+    border-radius: 0px 5px 5px 0px;
+    color: #fff;
+}
+
+.newRecipe{
+    width: 150px;
+    height: 40px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.newRecipe:hover {
+    background: black;
+    transition: 0.8s;
+    color: #fff;
+    border-radius: 5px 0px 0px 5px;
+    transition: 1s;
+}

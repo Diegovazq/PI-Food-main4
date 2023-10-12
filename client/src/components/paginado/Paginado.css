@@ -1,0 +1,29 @@
+.paginado {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: stretch;
+    margin-right: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .number {
+    background-color: #eaffc2;
+    color: black;
+    width: 30px;
+    height: 10px;
+    margin-right: 6px;
+    margin-top: 15px;
+    padding-bottom: 18px;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  .number:focus {
+    background-color: black;
+    color: #fff;
+  }
+
+  
